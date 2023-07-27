@@ -5,16 +5,17 @@ project:
 website:
   title: "am-enright.github.io"
   navbar:
+    background: success
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-
 format:
   html:
     theme: flatly
     css: styles.css
-    toc: true
+    toc: false
+    page-layout: full
 
-editor: visual
+#editor: visual
 
