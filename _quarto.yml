@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "am-enright.github.io"
+  title: "Allison Enright"
   navbar:
     background: success
     left:

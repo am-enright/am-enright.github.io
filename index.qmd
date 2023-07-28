@@ -8,8 +8,6 @@ about:
   links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/allison-enright/
-    - icon: github
-      href: https://github.com/am-enright
     - icon: envelope
       href: mailto::allison.m.enright@gmail.com
 ---
@@ -20,6 +18,8 @@ about:
       href: 
     - text: Download CV
       href: 
+    - icon: github
+      href: https://github.com/am-enright
 -->
 ```
 
@@ -28,6 +28,8 @@ Assistant Professor of Environmental Geochemistry  <br/>
 Department of Earth Sciences  <br/>
 University of New Brunswick  <br/>
 
+```{=html}
+<!--
 ### Still to come
 * Download link to resume
 * Download link to academic CV
@@ -37,9 +39,7 @@ University of New Brunswick  <br/>
   * Data sets
   * Code
   * Prototype and field photos
-
-```{=html}
-<!--
+  
 ## Education
 
 **2015** PhD Earth Sciences <br/>
