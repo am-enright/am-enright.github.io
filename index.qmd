@@ -14,8 +14,9 @@ about:
 
 ```{=html}
 <!--
-    - text: Download Resume
+    - text: Resume
       href: 
+
     - text: Download CV
       href: 
     - icon: github

@@ -87,7 +87,7 @@ tribble(
 
 # Publications
 
-```{r bibliography}
+```{r bibliography, eval=FALSE}
 # use bibtex
 bibliography_entries(here("auto_cv_res", "mypapers.bib")) # %>%
  # arrange() # complete this!!

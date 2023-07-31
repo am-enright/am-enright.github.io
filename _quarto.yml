@@ -11,6 +11,8 @@ website:
         text: Home
       - href: pubs.qmd
         text: Publications
+      - href: resume.pdf
+        text: Resume
 format:
   html:
     theme: flatly

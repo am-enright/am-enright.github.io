@@ -54,7 +54,7 @@
 %\def\footrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip 3pt}}
 \setlength{\parindent}{0pt} % Disable paragraph indentation
 %\def\endfirstpage{\newpage\newgeometry{left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.5cm}}
-\def\endfirstpage{\newpage\newgeometry{left=5cm,top=5cm,right=5cm,bottom=5cm}}
+\def\endfirstpage{\newpage\newgeometry{left=1cm,top=1cm,right=1cm,bottom=1cm}}
 
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR DEFINITIONS
@@ -132,7 +132,7 @@
 %\thispagestyle{empty}
 \pagestyle{empty}
 	\begin{tikzpicture}[remember picture,overlay]
-   		\node [rectangle, fill=sidecolor, anchor=north, minimum width=9cm, minimum height=\paperheight+1cm] (box) at (-5cm,1cm){}; %default is (-5cm, 0.5cm)
+   		\node [rectangle, fill=sidecolor, anchor=north, minimum width=9cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){}; %default is (-5cm, 0.5cm)
 	\end{tikzpicture}
 
 	%------------------------------------------------
@@ -170,7 +170,7 @@
 			\ifthenelse{\equal{\cvsite}{}}{}{\Large\faicon{home} & \cvsite\\}
 			\ifthenelse{\equal{\cvmail}{}}{}{\Large\faicon{envelope} & \cvmail\\}
 %			\ifthenelse{\equal{\cvtwitter}{}}{}{\Large\faicon{file-text-o} & \cvtwitter\\}
-				\ifthenelse{\equal{\cvtwitter}{}}{}{\Large\faicon{file-text-o} & \href{https://www.allisonenright.ca}{Publications}\\}
+				\ifthenelse{\equal{\cvtwitter}{}}{}{\Large\faicon{file-text-o} & \href{https://www.allisonenright.ca/pubs.html}{Publications}\\}
 			\ifthenelse{\equal{\cvgithub}{}}{}{\Large\faicon{github} & \cvgithub\\}
 			\ifthenelse{\equal{\cvlinkedin}{}}{}{\Large\faicon{linkedin} & \cvlinkedin\\}
 			\ifthenelse{\equal{\cvorcid}{}}{}{\Large\faicon{orcid} & \cvorcid\\}
@@ -265,25 +265,64 @@
 %	 LONG LIST ENVIRONMENT
 %----------------------------------------------------------------------------------------
 
-\setlength{\tabcolsep}{0pt} %% default was 0pt
+\setlength{\tabcolsep}{-10mm} %% default was 0pt
 %\renewcommand{\arraystretch}{1}
 
 % New environment for the long list
 \newenvironment{twenty}{%
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
-}{%
+%	\begin{tabular*}{\textwidth}{p{1.2cm}p{30cm}}
+	\begin{tabular*}{\textwidth}{p{0.1\textwidth}p{0.8\textwidth}p{0.15 \textwidth}}
+	}{%
 	\end{tabular*}
 }
 
+%\renewcommand{\bfseries}{\color{headercolor}}
+%\newcommand{\twentyitem}[4]{%
+%	#1&\parbox[t]{0.9\textwidth}{%
+%		\hspace{3pt} \textbf{#2} \\%
+%		\hfill%
+%		\hspace{3pt} \textit{#3}\\%
+%		\vspace{\parsep}
+%		#4\vspace{1mm}%
+%	}\\}
+
 \newcommand{\twentyitem}[4]{%
-%	#1&\parbox[t]{0.83\textwidth}{% %% default was 0.83
-		#1&\parbox[t]{11cm}{% %% default was 0.83
-		\textbf{#2}%
-		\hfill%
-		{#3}\\%
+	#1&\parbox[t]{0.85\textwidth}{%
+		\hspace{2mm} \textbf{#2} \vspace{2mm} \\
+%		\vspace{2mm}
+		\hspace{-5mm} \small{#4} \vspace{2mm}} & \textit{#3} \\%
+	}
+
+%\newcommand{\twentyitem}[4]{
+%		#1 & 
+%		\parbox[t]{\textwidth-2.4cm}{\textbf{#2} \\ 
+%		%\hspace*{-.5cm} 
+%		#4 \hfill} & 
+%		#3 \\ \vspace{2mm}}%
 %		{\footnotesize#3}\\%
-		#4\vspace{1mm}%
-	}\\}
+%   \hspace*{-1cm}	#4\vspace{1mm}%
+%	}\\}
+
+%% Backup
+% New environment for the long list
+%\newenvironment{twenty}{%
+%	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+%	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}l}
+%	\begin{tabular*}{\textwidth}{p{1.2cm}l} %p{1.5cm}}
+%}{%
+%	\end{tabular*}
+%}
+
+%\newcommand{\twentyitem}[4]{%
+%	#1&\parbox[t]{0.83\textwidth}{% %% default was 0.83
+%		#1&\parbox[t]{\textwidth-1cm}{% %% default was 0.83
+%		\textbf{#2}%
+%		\hfill%
+%		{#3}%
+%		{\footnotesize#3}\\%
+%    \hspace*{-1cm}	#4\vspace{1mm}%
+%	}\\}
+
 
 %----------------------------------------------------------------------------------------
 %	 SMALL LIST ENVIRONMENT
