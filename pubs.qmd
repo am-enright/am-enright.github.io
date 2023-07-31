@@ -1,0 +1,68 @@
+---
+title: "Publications"
+author: Allison Enright
+bibliography: mypapers.bib
+csl: american-geophysical-union.csl
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(here)
+library(tibble)
+library(readxl)
+```
+
+```{r make-readxl-function, include=FALSE}
+readExcelSheets <- function(filename){ # read all sheets in .xlsx
+all <- readxl::excel_sheets(filename) # import each sheet into a list using readxl::read_excel
+list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x)) # save sheet name for each sheet (list)
+names(list) <- all # breaks up list and creates a dataframe for each sheet with df names matching sheet names
+list2env(list, envir = .GlobalEnv)
+}
+```
+
+```{r import-xl, include=FALSE}
+filename <- here::here("auto_cv_res", "enright_res_input.xlsx")
+readExcelSheets(filename)
+
+# vitae::detailed_entries() # detailed_entries(data, what, when, with, where, why, .protect = TRUE)
+# vitae::brief_entries() # brief_entries(data, what, when, with, .protect = TRUE)
+```
+
+# Education
+
+```{r, eval=FALSE}
+edu %>%
+  detailed_entries(with = degree,
+                   when = year,
+                   what = institution,
+                   where = discipline,
+                   why = details)
+```
+
+test
+
+# Work Experience
+
+test 2
+```{r, eval = FALSE}
+workExp %>%
+  detailed_entries(what = role,
+                   when = dates,
+                   with = topic,
+                   where = institution,
+                   why = details)
+```
+
+```{r biblio}
+pubs <- bibliography_entries(here("auto_cv_res", "mypapers.bib")) # %>%
+#  arrange(desc(issued))
+
+pubs
+```
+
+
+
+

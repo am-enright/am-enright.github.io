@@ -9,7 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: pubs.qmd
+        text: Publications
 format:
   html:
     theme: flatly

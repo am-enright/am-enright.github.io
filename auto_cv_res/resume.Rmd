@@ -1,0 +1,85 @@
+---
+name: Allison
+surname: Enright 
+position: "Microbial Geochemist" # update
+address: "My background includes instrument design and prototyping, electrochemistry, sensor-based data collection, UV-vis spectroscopy, microbiology, geochemical and geophysical modelling, and signal processing." # use this one for about me!!
+phone: +1 506 476 0361 # update
+#pronouns: "I have extensive experience in scientific writing, grant writing, research study design, skills-based technical instruction and training, post secondary education, and course and curriculum design." #use this one for about me!!
+profilepic: cyanoSelfie.jpeg # update
+www: allisonenright.ca # update
+email: "allison.m.enright@gmail.com" # update
+twitter: "Publications" #mariecurie remove
+github: am-enright # update
+linkedin: allison.enright # update
+#researchgate: "My background includes instrument design and prototyping, electrochemistry, sensor-based data collection, UV-vis spectroscopy, microbiology, geochemical and geophysical modelling, and signal processing."
+#date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I am an expert in complex problem solving, and as a geochemist and researcher, I design bespoke environmental monitoring technology to provide real-time data from the site, automate most data collection, and reduce the need for lab-based off site analysis."
+# fa icons: https://faicons.com
+knit: (function(inputFile, encoding) {
+   rmarkdown::render(inputFile,
+                    output_dir = "../docs",
+                    knit_root_dir = rprojroot::find_rstudio_root_file())})
+output: vitae::twentyseconds
+page_total: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(here)
+library(tibble)
+library(readxl)
+```
+
+```{r make-readxl-function, include=FALSE}
+readExcelSheets <- function(filename){ # read all sheets in .xlsx
+all <- readxl::excel_sheets(filename) # import each sheet into a list using readxl::read_excel
+list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x)) # save sheet name for each sheet (list)
+names(list) <- all # breaks up list and creates a dataframe for each sheet with df names matching sheet names
+list2env(list, envir = .GlobalEnv)
+}
+```
+
+```{r import-xl, include=FALSE}
+filename <- here::here("auto_cv_res", "enright_res_input.xlsx")
+readExcelSheets(filename)
+
+# vitae::detailed_entries() # detailed_entries(data, what, when, with, where, why, .protect = TRUE)
+# vitae::brief_entries() # brief_entries(data, what, when, with, .protect = TRUE)
+```
+
+# Education
+
+```{r}
+edu %>%
+  detailed_entries(with = degree,
+                   when = year,
+                   what = institution,
+                   where = discipline,
+                   why = details)
+```
+
+# Work Experience
+
+```{r}
+workExp %>%
+  detailed_entries(what = role,
+                   when = dates,
+                   with = topic,
+                   where = institution,
+                   why = details)
+```
+
+```{r biblio, eval=FALSE, include=FALSE}
+#test<- bibliography_entries(here("auto_cv_res", "mypapers.bib")) 
+bibliography_entries(here("auto_cv_res", "mypapers.bib")) %>%
+#columns<- colnames(test)
+  arrange(desc(issued))
+#print(columns)
+#print(test)
+#library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+#bibliography_entries("mypapers.bib") #%>%
+#  arrange(desc(author$family), issued)
+```

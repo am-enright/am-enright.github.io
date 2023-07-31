@@ -7,10 +7,24 @@
     "text": "Allison Enright\nAssistant Professor of Environmental Geochemistry  Department of Earth Sciences  University of New Brunswick"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Resources",
+    "objectID": "auto_cv_res/resume.html",
+    "href": "auto_cv_res/resume.html",
+    "title": "Education",
     "section": "",
-    "text": "Publications"
+    "text": "Education\n\n\n# A tibble: 3 × 5\n  what                   when with      where                  why      \n  &lt;chr&gt;                 &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;                  &lt;list&gt;   \n1 University of Toronto  2015 PhD       Microbial geochemistry &lt;chr [2]&gt;\n2 University of Toronto  2011 MSc       Geodynamics            &lt;chr [2]&gt;\n3 University of Ottawa   2010 BSc Hons. Geology                &lt;chr [1]&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 4 × 5\n  what                    when       with                            where why  \n  &lt;chr&gt;                   &lt;chr&gt;      &lt;chr&gt;                           &lt;chr&gt; &lt;lis&gt;\n1 Assistant Professor,    2020--now  Environmental Geochemistry      Univ… &lt;chr&gt;\n2 Postdoctoral Scientist, 2019       Early-Earth oceanic microbiolo… Univ… &lt;chr&gt;\n3 Postdoctoral Scientist, 2016--2018 Astrobiology and life detection Rutg… &lt;chr&gt;\n4 Postdoctoral Scientist, 2015--2016 Biogeophysics                   Okla… &lt;chr&gt;"
+  },
+  {
+    "objectID": "auto_cv_res/cv.html#n-geaing",
+    "href": "auto_cv_res/cv.html#n-geaing",
+    "title": "Test section",
+    "section": "2n geaing",
+    "text": "2n geaing\n\n\n# A tibble: 2 × 3\n  what                      when with                                           \n  &lt;glue&gt;                   &lt;dbl&gt; &lt;chr&gt;                                          \n1 Nobel Prize in Physics    1903 Awarded for her work on radioactivity with Pie…\n2 Nobel Prize in Chemistry  1911 Awarded for the discovery of radium and poloni…"
+  },
+  {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Education\ntest\n\n\nWork Experience\ntest 2\n\n\n\n/var/folders/p9/s5yljpg96n30_djttv0kwn8r0000gn/T//RtmpvjZW3z/file739177b6331f.yaml"
   }
 ]
