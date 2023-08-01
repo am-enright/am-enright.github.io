@@ -1,198 +1,81 @@
 ---
 title: "Publications"
-author: Allison Enright
 bibliography: mypapers.bib
 csl: american-geophysical-union.csl
 output: html_document
+resources: 
+  - Edwards_2018.pdf
+  
 ---
-
-
-https://stackoverflow.com/questions/18246053/how-can-i-create-a-link-to-a-local-file-on-a-locally-run-web-page
-
 
 Becker S, Enright AML, and Kappler A. (2021) Life on Iron in _Metals in Life Sciences_. Walter de Gruyter GmbH.
 
+Edwards BA, Shirokova VL, Enright AML, and Ferris FG. (2018) Dependence of \emph{In Situ} Bacterial Fe(II)-Oxidation and Fe(III)-Precipitation on Sequential Reactive Transport. _Geomicrobiology Journal_, *35*, 6:503--510. doi: 10.1080/01490451.2017.1394929. 
+<!--[pdf](Edwards_2018.pdf) -->
 
- author = {Edwards, Brock A. and Shirokova, Veronika L. and Enright, Allison M. L. and Ferris, F. Grant},
-   year = {2018},
-  title = {Dependence of {{{\emph{In Situ}}}} {{Bacterial Fe}}({{II}})-{{Oxidation}} and {{Fe}}({{III}})-{{Precipitation}} on {{Sequential Reactive Transport}}},
-  journal = {Geomicrobiology Journal},
-  volume = {35},
-  number = {6},
-  pages = {503--510},
-  doi = {10.1080/01490451.2017.1394929},
+<!--<a href="file:///C:\Programs\sort.mw">Link 1</a>
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Edwards et al. - 2018 - Dependence of In Situ Bacterial Fe(II)-Oxid.pdf}
 }
+-->
+Enright AML, and Ferris FG. (2016) Bacterial Fe(II) Oxidation Distinguished by Long-Range Correlation in Redox Potential: Fluctuation Analysis of Redox Potential. _Journal of Geophysical Research: Biogeosciences_, *121*,5:1249--1257. doi: 10.1002/2015JG003306. 
+<!--[pdf](C:///Users/allisonenright/Documents/Zotero/ItemFiles/Enright and Ferris - 2016 - Bacterial Fe(II) oxidation distinguished by long-r.pdf) -->
 
-  author = {Enright, Allison M. L. and Ferris, F. Grant},
-  year = {2016},
-@article{enright2016BacterialFeII,
-  title = {Bacterial {{Fe}}({{II}}) Oxidation Distinguished by Long-Range Correlation in Redox Potential: {{Fluctuation Analysis}} of {{Redox Potential}}},
-  journal = {Journal of Geophysical Research: Biogeosciences},
-  volume = {121},
-  number = {5},
-  pages = {1249--1257},
-  doi = {10.1002/2015JG003306},
-  file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Enright and Ferris - 2016 - Bacterial Fe(II) oxidation distinguished by long-r.pdf}
-}
-
-@article{enright2016FluctuationAnalysisRedox,
-  title = {Fluctuation {{Analysis}} of {{Redox Potential}} to {{Distinguish Microbial Fe}}({{II}}) {{Oxidation}}},
-  author = {Enright, A.M.L. and Ferris, F.G.},
-  year = {2016},
-  month = nov,
-  journal = {Astrobiology},
-  volume = {16},
-  number = {11},
-  pages = {846--852},
-  issn = {1531-1074, 1557-8070},
-  doi = {10.1089/ast.2016.1509},
-  urldate = {2023-01-04},
-  copyright = {All rights reserved},
-  langid = {english},
+Enright AML, and Ferris FG. (2016) Fluctuation Analysis of Redox Potential to Distinguish Microbial Fe(II) Oxidation. _Astrobiology_, *16*, 11:846--852.
+  doi: 10.1089/ast.2016.1509. <!--[pdf]
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Enright and Ferris - 2016 - Fluctuation Analysis of Redox Potential to Disting.pdf}
-}
+}-->
 
-  author = {Enright, Allison M. L. and Edwards, Brock A. and Ferris, F. Grant},
-  year = {2019},
-  title = {Long {{Range Correlation}} in {{Redox Potential Fluctuations Signals Energetic Efficiency}} of {{Bacterial Fe}}({{II}}) {{Oxidation}}},
-  journal = {Scientific Reports},
-  volume = {9},
-  number = {1},
-  pages = {4018},
-  doi = {10.1038/s41598-019-40499-5},
+Enright AML, Edwards BA, and Ferris FG. (2019) Long Range Correlation in Redox Potential Fluctuations Signals Energetic Efficiency of Bacterial Fe(II) Oxidation. _Scientific Reports_, *9*, 1: 4018. doi: 10.1038/s41598-019-40499-5. <!--[pdf]
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Enright et al. - 2019 - Long Range Correlation in Redox Potential Fluctuat.pdf}
-}
+}-->
 
-
-
-@article{ferris2016RatesFeII,
-  title = {Rates of {{Fe}}({{II}})-{{Oxidation}} and {{Solubility}} of {{Bacteriogenic Iron Oxides}}},
-  author = {Ferris, F. Grant and Enright, Allison M.L. and Fortin, Danielle and Clark, Ian D.},
-  year = {2016},
-  month = mar,
-  journal = {Geomicrobiology Journal},
-  volume = {33},
-  number = {3-4},
-  pages = {237--242},
-  issn = {0149-0451, 1521-0529},
-  doi = {10.1080/01490451.2015.1049305},
-  urldate = {2023-01-04},
-  copyright = {All rights reserved},
-  langid = {english},
+Ferris FG, Enright AML, Fortin D, and Clark ID. (2016) Rates of Fe(II)-Oxidation and Solubility of Bacteriogenic Iron Oxides. _Geomicrobiology Journal_
+*33*, 3-4: 237--242. doi: 10.1080/01490451.2015.1049305. <!--[pdf]
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Ferris et al. - 2016 - Rates of Fe(II)-Oxidation and Solubility of Bacter.pdf}
-}
+}-->
 
-@techreport{jefferson2011NortheastThelonRegion,
-  title = {Northeast {{Thelon}} Region Geoscience Framework - New Maps and Data for Uranium in {{Nunavut}}},
-  author = {Jefferson, C and Pehrsson, S and Peterson, T and Chorlton, L and Davis, B and Keating, P and Gandhi, S and Fortin, R and Buckle, J and Miles, W and Rainbird, R and LeCheminant, T and Tschirhart, V and Tschirhart, P and Morris, W and Scott, J and Cousens, B and McEwan, B and Bethune, K and Riemer, W and Calhoun, L and White, J and MacIsaac, D and Leblon, B and Lentz, D and LaRocque, A and Shelat, Y and Patterson, J and Enright, A and Stieber, C and Riegler, T},
-  year = {2011},
-  number = {6949},
-  pages = {6949},
-  doi = {10.4095/288791},
-  urldate = {2023-07-25},
-  abstract = {\"YTectonic and uranium attributes of Thelon Basin compare with, but differ in subtle ways from the graphitic metapelitedominated basement setting for world class deposits of the Athabasca basin. \"YThe two basins developed along parallel but separate, west-flowing ``big river'' systems draining the interior of Nuna. \"YAges of diagenesis, hydrothermal events \& uranium minerals differ by 10s of Ma. \"YThelon's deposits are spatially associated with 1.75 Ga Nueltin granite \& Pitz rhyolite \"YIntersecting reactivated faults are key in both basins; basement nappes may also! \"YAlteration (e.g. chlorite, illite, hematite, +/- quartz, fluorapatite) differs in detail.},
-  copyright = {All rights reserved},
-  langid = {english},
-  file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Jefferson et al. - 2011 - Northeast Thelon region geoscience framework - new.pdf}
-}
+Jefferson C, Pehrsson S, Peterson T, Chorlton L, Davis B, Keating P, Gandhi S, Fortin R, Buckle J, Miles W, Rainbird R, LeCheminant T, Tschirhart V,  Tschirhart P, Morris W, Scott J, Cousens B, McEwan B, Bethune K, Riemer W, Calhoun L, White J, MacIsaac D, Leblon B, Lentz D, LaRocque A, Shelat Y, Patterson J, Enright A, Stieber C, and Riegler T. (2011) Northeast Thelon Region Geoscience Framework - New Maps and Data for Uranium in Nunavut. GSC Open File 6949. doi: 10.4095/288791. <!--[Geoscan link]
 
-@article{meadows2022CommunityReportBiosignatures,
-  title = {Community {{Report}} from the {{Biosignatures Standards}} of {{Evidence Workshop}}},
-  author = {Meadows, Victoria and Graham, Heather and Abrahamsson, Victor and Adam, Zach and {Amador-French}, Elena and Arney, Giada and Barge, Laurie and Barlow, Erica and Berea, Anamaria and Bose, Maitrayee and Bower, Dina and Chan, Marjorie and Cleaves, Jim and Corpolongo, Andrea and Currie, Miles and {Domagal-Goldman}, Shawn and Dong, Chuanfei and Eigenbrode, Jennifer and Enright, Allison and Fauchez, Thomas J. and Fisk, Martin and Fricke, Matthew and Fujii, Yuka and Gangidine, Andrew and Gezer, Eftal and Glavin, Daniel and Grenfell, Lee and Harman, Sonny and Hatzenpichler, Roland and Hausrath, Libby and Henderson, Bryana and Johnson, Sarah Stewart and Jones, Andrea and Hamilton, Trinity and {Hickman-Lewis}, Keyron and Jahnke, Linda and Kacar, Betul and Kopparapu, Ravi and Kempes, Christopher and Kish, Adrienne and {Krissansen-Totton}, Joshua and Leavitt, Wil and Komatsu, Yu and Lichtenberg, Tim and Lindsay, Melody and Maggiori, Catherine and Marais, David Des and Mathis, Cole and Morono, Yuki and Neveu, Marc and Ni, Grace and Nixon, Conor and Olson, Stephanie and Parenteau, Niki and Perl, Scott and Quinn, Richard and Raj, Chinmayee and Rodriguez, Laura and Rutter, Lindsay and Sandora, McCullen and Schmidt, Britney and Schwieterman, Eddie and Segura, Antigona and Sekerci, Fatih and Seyler, Lauren and Smith, Harrison and Soares, Georgia and Som, Sanjoy and Suzuki, Shino and Teece, Bonnie and Weber, Jessica and {Wolfe-Simon}, Felisa and Wong, Michael and Yano, Hajime and Young, Liza},
-  year = {2022},
-  publisher = {{arXiv}},
-  doi = {10.48550/ARXIV.2210.14293},
-  urldate = {2023-07-25},
-  copyright = {Creative Commons Attribution 4.0 International},
-  keywords = {Earth and Planetary Astrophysics (astro-ph.EP),FOS: Biological sciences,FOS: Physical sciences,Instrumentation and Methods for Astrophysics (astro-ph.IM),Populations and Evolution (q-bio.PE)},
-  file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Meadows et al. - 2022 - Community Report from the Biosignatures Standards .pdf}
-}
+file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Jefferson et al. - 2011 - Northeast Thelon region geoscience framework - new.pdf}
+}-->
 
-@article{narock2019EarthScienceReady,
-  title = {Earth {{Science Is Ready}} for {{Preprints}}},
-  author = {Narock, Tom and Goldstein, Evan and Jackson, Christopher and Bubeck, Alodie and Enright, Allison and Farquharson, Jamie and Fern{\dbend}ndez, Alfonso and {Fern{\dbend}ndez-Blanco}, David and Girardclos, St{\dbend}phanie and Ibarra, Daniel and Lengger, Sabine and Mackay, Anson and Venema, Victor and Whitehead, Brandon and Ampuero, Jean-Paul},
-  year = {2019},
-  month = apr,
-  journal = {Eos},
-  volume = {100},
-  issn = {2324-9250},
-  doi = {10.1029/2019EO121347},
-  urldate = {2023-01-09},
-  copyright = {All rights reserved},
-  langid = {english},
-  file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Narock et al. - 2019 - Earth Science Is Ready for Preprints.pdf}
-}
+Meadows V, Graham H, Abrahamsson V, Adam Z, Amador-French E, Arney G, Barge L, Barlow E, Berea A, Bose M, Bower D, Chan M, Cleaves J, Corpolongo A, Currie M, Domagal-Goldman S, Dong C, Eigenbrode J, Enright A, Fauchez TJ, Fisk M, Fricke M, Fujii Y, Gangidine A, Gezer E, Glavin D, Grenfell L, Harman S, Hatzenpichler R, Hausrath L, Henderson B, Stewart Johnson S, Jones A, Hamilton T, Hickman-Lewis K, Jahnke L, Kacar B, Kopparapu R, Kempes C, Kish A, Krissansen-Totton J, Leavitt W, Komatsu Y, Lichtenberg T, Lindsay M, Maggiori C, Des Marais D, Mathis C, Morono Y, Neveu M, Ni G, Nixon C, Olson S, Parenteau N, Perl S, Quinn R, Raj C, Rodriguez L, Rutter L, Sandora M, Schmidt B, Schwieterman E, Segura A, Sekerci F, Seyler L, Smith H, Soares G, Som S, Suzuki S, Teece B, Weber J, Wolfe-Simon F, Wong M, Yano H, Young L. (2022) Community Report from the Biosignatures Standards of Evidence Workshop. doi: 10.48550/ARXIV.2210.14293. <!--[pdf] [response]
+file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Meadows et al. - 2022 - Community Report from the Biosignatures Standards .pdf}
+}-->
 
-@techreport{percival2012EXTECHIVMineralogical,
-  title = {{{EXTECH IV}} Mineralogical Database: {{XRD}}, Infrared and {{TEM}} Analyses},
-  shorttitle = {{{EXTECH IV}} Mineralogical Database},
-  author = {Percival, J B and Jensen, T and Wasyliuk, K and Drever, G and Sader, J and Sarfi, M and Hunt, P A and Bibby, C and Wong, S and Enright, A},
-  year = {2012},
-  number = {6968},
-  pages = {6968},
-  doi = {10.4095/292112},
-  urldate = {2023-07-25},
-  copyright = {All rights reserved},
-  langid = {english},
+Narock T, Goldstein E, Jackson C, Bubeck A, Enright A, Farquharson J, Fernandez A, Fernandez-Blanco D, Girardclos S, Ibarra D, Lengger S, Mackay A, Venema V, Whitehead B, Ampuero J-P. (2019) Earth Science Is Ready for Preprints. _Eos_, *100*. doi: 10.1029/2019EO121347. 
+<!--  file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Narock et al. - 2019 - Earth Science Is Ready for Preprints.pdf}
+}-->
+
+Percival JB, Jensen T, Wasyliuk K, Drever G, Sader J, Sarfi M, Hunt PA, Bibby C, Wong S, and Enright A. (2012) EXTECH IV Mineralogical Database: XRD, Infrared and TEM Analyses. GSC Open File 6968. doi: 10.4095/292112. <!--[Geoscan link]
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/OpenFile_6968_Appendix_A_ExtechIV-7.Min.Database.XRD.xls;/Users/allisonenright/Documents/Zotero/ItemFiles/OpenFile_6968_Appendix_B_ExtechIV-7_Min_Database_INFRD.xls;/Users/allisonenright/Documents/Zotero/ItemFiles/Percival et al. - 2012 - EXTECH IV mineralogical database XRD, infrared an.pdf}
 }
+-->
+Percival JB, Potter EG, Lauziere K, Ijewliw O, Bilot I, Hunt P, English MLR, Olejarz AD, Laudadio AB, Enright AML, Robillard K-L, and Corriveau L. (2016)
+Mineralogy, Petrography and Autoradiography of Selected Samples from the Contact Lake and NICO Areas, Great Bear Magmatic Zone, Northwest Territories (IOCG-GEM Project). GSC Open File 7755. doi: 10.4095/297677. <!--[Geoscan link]
 
-@techreport{percival2016MineralogyPetrographyAutoradiography,
-  title = {Mineralogy, Petrography and Autoradiography of Selected Samples from the {{Contact Lake}} and {{NICO}} Areas, {{Great Bear Magmatic Zone}}, {{Northwest Territories}} ({{IOCG-GEM Project}})},
-  author = {Percival, J B and Potter, E G and Lauzi{\`e}re, K and Ijewliw, O and Bilot, I and Hunt, P and English, M L R and Olejarz, A D and Laudadio, A B and Enright, A.M.L. and Robillard, K -L and Corriveau, L},
-  year = {2016},
-  number = {7755},
-  pages = {7755},
-  doi = {10.4095/297677},
-  urldate = {2023-07-25},
-  copyright = {All rights reserved},
-  langid = {english},
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Percival et al. - 2016 - Mineralogy, petrography and autoradiography of sel.pdf;/Users/allisonenright/Downloads/of_7755/of_7755_Appendix_A_XRD_IOCG.pdf;/Users/allisonenright/Downloads/of_7755/of_7755_Appendix_B_Petrography_IOCG.pdf;/Users/allisonenright/Downloads/of_7755/of_7755_Appendix_C_Autoradiographs_IOCG.pdf}
 }
-
-@article{shirokova2016ThermalIntensificationMicrobial,
-  title = {Thermal Intensification of Microbial {{Fe}}({{II}})/{{Fe}}({{III}}) Redox Cycling in a Pristine Shallow Sand Aquifer on the {{Canadian Shield}}},
-  author = {Shirokova, V.L. and Enright, A.M.L. and Kennedy, C.B. and Ferris, F.G.},
-  year = {2016},
-  month = dec,
-  journal = {Water Research},
-  volume = {106},
-  pages = {604--612},
-  issn = {00431354},
-  doi = {10.1016/j.watres.2016.10.050},
-  urldate = {2023-01-09},
-  copyright = {All rights reserved},
-  langid = {english},
+-->
+Shirokova VL, Enright AML, Kennedy CB, and Ferris FG. (2016) Thermal Intensification of Microbial Fe(II)/Fe(III) Redox Cycling in a Pristine Shallow Sand Aquifer on the Canadian Shield. _ Water Research_ *106*, 604--612. doi: 10.1016/j.watres.2016.10.050. <!--[pdf]
   file = {/Users/allisonenright/Documents/Zotero/ItemFiles/Shirokova et al. - 2016 - Thermal intensification of microbial Fe(II)Fe(III.pdf}
 }
+-->
 
-
-
+<!--
 test 
 [@becker2021LifeIron]
-
 [edwards2018DependenceSituBacterial]
-
 [enright2016BacterialFeII]
-
 [enright2016FluctuationAnalysisRedox]
-
 [enright2019LongRangeCorrelation]
-
 [ferris2016RatesFeII]
-
 [jefferson2011NortheastThelonRegion]
-
 [meadows2022CommunityReportBiosignatures]
-
 [narock2019EarthScienceReady]
-
 [percival2012EXTECHIVMineralogical]
-
 [percival2016MineralogyPetrographyAutoradiography]
-
 [shirokova2016ThermalIntensificationMicrobial]
-
+-->
 
 

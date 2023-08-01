@@ -10,10 +10,16 @@ about:
       href: https://www.linkedin.com/in/allison-enright/
     - icon: envelope
       href: mailto::allison.m.enright@gmail.com
+    - text: resume
+      href: "resume_enright.pdf"
 ---
 
 ```{=html}
 <!--
+
+    - text: Resume
+    <a href="file:///C:\Programs\sort.mw">Link 1</a>
+      href: ../resume.pdf
     - text: Resume
       href: 
 

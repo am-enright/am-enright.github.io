@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - ../resume.pdf
 
 website:
   title: "Allison Enright"
@@ -11,8 +13,6 @@ website:
         text: Home
       - href: pubs.qmd
         text: Publications
-      - href: resume.pdf
-        text: Resume
 format:
   html:
     theme: flatly
